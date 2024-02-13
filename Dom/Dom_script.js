@@ -58,3 +58,29 @@ console.dir(document.querySelectorAll("div"));
 • innerHTML : returns the plain text or HTML contents in the element
 • textContent: returns textual content even for hidden elements
 */
+
+
+//Attributes
+/*
+getAttribute(attr) //to get the attribute value
+setAttribute(attr, value) //to set the attribute value
+*/
+
+let divAccess = document.querySelector("div");
+console.log(divAccess);
+
+let id = divAccess.getAttribute("id");
+console.log(id);
+
+//Style
+//node.style
+
+/*
+Isert Element
+• node.append(el) //adds at the end of node (inside)
+• node-prepend(el) //adds at the start of node (inside)
+• node.before(el) //adds before the node (outside)
+• node.after(el) //adds after the node (outside)
+Delete Element
+• node.remove() //removes the node
+*/
