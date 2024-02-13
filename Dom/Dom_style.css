@@ -1,0 +1,14 @@
+h1{
+    color: blue;
+    text-decoration: line-through;
+}
+p{
+    background-color: aquamarine;
+}
+#heading-id{
+    color: blue;
+    text-decoration: line-through;
+}
+.para-class{
+    background-color:blueviolet;
+}
